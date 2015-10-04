@@ -1,0 +1,17 @@
+[user]
+	name = Mariusz Skoneczko
+	email = mariuszskon@users.noreply.github.com
+[push]
+	default = simple
+[core]
+	excludesfile = /home/p1xel/.gitignore_global
+[alias]
+	i = init
+	co = checkout
+	st = status
+	br = branch
+	nb = checkout -b
+	ci = commit -m
+	dh = diff HEAD
+	a = add
+	aa = add --all
