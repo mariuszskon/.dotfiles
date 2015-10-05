@@ -21,6 +21,10 @@ fi
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
+# PATHs
+export PATH=${PATH}:~/android/android-sdk-linux/tools:~/android/android-sdk-linux/platform-tools
+export PATH=${PATH}:~/npm-global/bin:~/nodejs/bin
+
 # PS1
 CLEAR="\e[0m"
 BOLDBLUE="\e[1;34m"
@@ -32,7 +36,3 @@ PS1="$BOLDBLUE""\u ""$GREEN""\w ""$WHITE""\$ $CLEAR"
 
 # Alias definitions.
 . ~/.bash_aliases
-
-# source the .bash_profile file
-. ~/.bash_profile
-
