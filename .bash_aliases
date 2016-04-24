@@ -10,4 +10,4 @@ alias g='git'
 
 
 # misc
-alias newpost='cp /var/www/html/src/blog/year/month/day/post.php .'
+alias newpost='cp /srv/http/html/src/blog/year/month/day/post.php .'
