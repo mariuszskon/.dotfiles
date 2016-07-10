@@ -12,5 +12,8 @@ alias g='git'
 alias mybackup='tar cfJ - ${mybackup_files[*]} | gpg2 --symmetric --s2k-cipher-algo AES256 --s2k-digest-algo SHA512 --s2k-count 65011712 -o $(date +"%Y-%m-%d").tar.xz.gpg'
 alias mybackuprestore='gpg2 --decrypt $mybackup_restore | tar xfJ - -C $mybackup_restore_destination'
 
+# ffmpeg
+alias ripaudio='ffmpeg -i "$source_video" -ss "$start_time" -to "$end_time" -vn -sn -b:a 128k -map_metadata -1 -metadata title="$title" -metadata comment="$comment" -metadata artist="$artist" "$title.opus"'
+
 # misc
 alias newpost='cp /srv/http/html/src/blog/year/month/day/post.php .'
