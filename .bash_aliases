@@ -9,7 +9,7 @@ alias la='ls -la'
 alias g='git'
 
 # backup
-alias mybackup='tar cfJ - ${mybackup_files[*]} | gpg2 --symmetric --s2k-cipher-algo AES256 --s2k-digest-algo SHA512 --s2k-count 65011712 -o $(date +"%Y-%m-%d").tar.xz.gpg'
+alias mybackup='XZ_OPT="-9 -T 0" tar cfJ - ${mybackup_files[*]} | gpg2 --symmetric --s2k-cipher-algo AES256 --s2k-digest-algo SHA512 --s2k-count 65011712 -o $(date +"%Y-%m-%d").tar.xz.gpg'
 alias mybackuprestore='gpg2 --decrypt $mybackup_restore | tar xfJ - -C $mybackup_restore_destination'
 
 # ffmpeg
