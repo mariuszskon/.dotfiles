@@ -15,5 +15,3 @@ alias mybackuprestore='gpg2 --decrypt $mybackup_restore | tar xfJ - -C $mybackup
 # ffmpeg
 alias ripaudio='ffmpeg -i "$source_video" -ss "$start_time" -to "$end_time" -vn -sn -b:a 128k -map_metadata -1 -metadata title="$title" -metadata comment="$comment" -metadata artist="$artist" "$title.opus"'
 
-# misc
-alias newpost='cp /srv/http/html/src/blog/year/month/day/post.php .'
