@@ -15,3 +15,7 @@ alias mybackuprestore='gpg2 --decrypt $mybackup_restore | tar xfJ - -C $mybackup
 # ffmpeg
 alias ripaudio='ffmpeg -i "$source_video" -ss "$start_time" -to "$end_time" -vn -sn -b:a 128k -map_metadata -1 -metadata title="$title" -metadata comment="$comment" -metadata artist="$artist" "$title.opus"'
 
+# misc
+alias hoard='wget -e robots=off --recursive --level=inf --no-clobber --no-parent --random-wait 2'
+alias mirror='wget -e robots=off --mirror --no-parent --convert-links --random-wait 2 --page-requisites'
+alias snapshottext='wget -e robots=off'
