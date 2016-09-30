@@ -36,3 +36,6 @@ PS1="\[$BOLDBLUE\]""\u ""\[$GREEN\]""\w ""\[$WHITE\]""\$ \[$CLEAR\]"
 
 # Alias definitions.
 . ~/.bash_aliases
+
+# "private" definitions
+. ~/.bash_priv
