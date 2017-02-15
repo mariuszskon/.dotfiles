@@ -17,5 +17,5 @@ alias ripaudio='ffmpeg -i "$source_video" -ss "$start_time" -to "$end_time" -vn 
 
 # misc
 alias hoard='wget -e robots=off --recursive --level=inf --no-clobber --no-parent --random-wait 2'
-alias mirror='wget -e robots=off --mirror --no-parent --convert-links --random-wait 2 --page-requisites'
+alias mirror='wget -e robots=off --mirror --no-parent --adjust-extension --convert-links --random-wait 2 --page-requisites'
 alias snapshottext='wget -e robots=off'
