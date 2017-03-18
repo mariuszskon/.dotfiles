@@ -4,7 +4,7 @@
 [push]
 	default = simple
 [core]
-	excludesfile = /home/p1xel/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [alias]
 	i = init
 	co = checkout
