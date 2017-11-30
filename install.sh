@@ -2,6 +2,7 @@
 # script to install dotfiles using symlinks
 
 files="bashrc bash_profile bash_aliases gitconfig gitignore_global npmrc" # without dots
+files+=" config/mpv/mpv.conf config/mpv/input.conf"
 
 cd ~
 
