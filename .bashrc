@@ -27,11 +27,11 @@ export PATH=${PATH}:~/npm-global/bin
 
 # PS1
 CLEAR="\e[0m"
-BOLDBLUE="\e[1;34m"
+BLUE="\e[34m"
 GREEN="\e[32m"
 WHITE="\e[37m"
 
-PS1="\[$BOLDBLUE\]""\u ""\[$GREEN\]""\w ""\[$WHITE\]""\$ \[$CLEAR\]"
+PS1="\[$BLUE\]""\u ""\[$GREEN\]""\w ""\[$WHITE\]""\$ \[$CLEAR\]"
 
 
 # Alias definitions.
