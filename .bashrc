@@ -33,6 +33,8 @@ WHITE="\e[37m"
 
 PS1="\[$BLUE\]""\u ""\[$GREEN\]""\w ""\[$WHITE\]""\$ \[$CLEAR\]"
 
+# beautiful ls (solarized)
+eval `dircolors ~/.dotfiles/.config/dircolors-solarized-ansi-dark`
 
 # Alias definitions.
 . ~/.bash_aliases
