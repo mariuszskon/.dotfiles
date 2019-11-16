@@ -1,3 +1,5 @@
+unlet! skip_defaults_vim
+source $VIMRUNTIME/defaults.vim
 syntax enable
 set background=dark
 colorscheme solarized
