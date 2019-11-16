@@ -1,5 +1,13 @@
 unlet! skip_defaults_vim
 source $VIMRUNTIME/defaults.vim
+
+" spaces are better than tabs
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+" but in case we see tabs, treat them as wide as 4 spaces
+set tabstop=4
+
 syntax enable
 set background=dark
 colorscheme solarized
