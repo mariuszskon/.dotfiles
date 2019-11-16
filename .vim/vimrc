@@ -1,3 +1,4 @@
+" load defaults
 unlet! skip_defaults_vim
 source $VIMRUNTIME/defaults.vim
 
@@ -8,6 +9,7 @@ set softtabstop=4
 " but in case we see tabs, treat them as wide as 4 spaces
 set tabstop=4
 
+" enable solarized dark theme - needs terminal to be configured correctly
 syntax enable
 set background=dark
 colorscheme solarized
