@@ -1,5 +1,7 @@
 [options]
 font = DejaVu Sans Mono 12
+# infinite scrollback
+scrollback_lines = -1
 
 # https://github.com/alpha-omega/termite-colors-solarized/blob/d4aa96aa2efe88c8b39f7cdcba1e6f285b34a5ed/solarized-dark
 # Solarized dark color scheme
