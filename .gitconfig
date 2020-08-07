@@ -15,3 +15,5 @@
 	dh = diff HEAD
 	a = add
 	aa = add --all
+[pull]
+	rebase = true
