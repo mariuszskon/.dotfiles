@@ -26,4 +26,4 @@ alias mirror='wget -e robots=off --mirror --no-parent --adjust-extension --conve
 alias snapshottext='wget -e robots=off'
 
 # misc
-alias ykc='ykman oath code'
+alias ykc='ykman oath accounts code'
