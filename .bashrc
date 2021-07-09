@@ -33,9 +33,6 @@ WHITE="\e[37m"
 
 PS1="\[$BLUE\]""\u ""\[$GREEN\]""\w ""\[$WHITE\]""\$ \[$CLEAR\]"
 
-# beautiful ls (solarized)
-eval `dircolors ~/.dotfiles/.config/dircolors-solarized-ansi-dark`
-
 # using GnuPG (GPG) for SSH keys
 unset SSH_AGENT_PID
 if [ "${gnupg_SSH_AUTH_SOCK_by:-0}" -ne $$ ]; then

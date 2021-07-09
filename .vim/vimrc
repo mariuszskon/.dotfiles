@@ -9,7 +9,8 @@ set softtabstop=4
 " but in case we see tabs, treat them as wide as 4 spaces
 set tabstop=4
 
-" enable solarized dark theme - needs terminal to be configured correctly
+" base16-solarized-dark theme, should allow other base16 themes from terminal
+" to propagate
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme base16-solarized-dark
